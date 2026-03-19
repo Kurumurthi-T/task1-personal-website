@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kurumurthi | Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Kurumurthi</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <img src="profile.jpg">
+    <h1>I am <span id="typing"></span></h1>
+    <p>Web Developer | ApexPlanet Intern</p>
+    <div class="buttons">
+        <button onclick="showMessage()">Hire Me</button>
+        <a href="https://github.com" target="_blank">GitHub</a>
+    </div>
+</section>
+
+<section id="about" class="fade">
+    <h2>About Me</h2>
+    <p>I build modern websites and love solving problems with code.</p>
+</section>
+
+<section id="skills" class="fade">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+    </div>
+</section>
+
+<section id="contact" class="fade">
+    <h2>Contact Me</h2>
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button onclick="submitForm()">Send</button>
+</section>
+
+<footer>
+    <p>© 2026 Kurumurthi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
